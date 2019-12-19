@@ -2,7 +2,7 @@
 
 ## About the Site
 
-This site is my personal portfolio that highlights the various projects that I have worked on.
+This site is my personal portfolio that provides some info about me and highlights the various projects that I have worked on.
 
 ## Status
 
@@ -14,9 +14,11 @@ This site is my personal portfolio that highlights the various projects that I h
 
 ## Start Bootstrap
 
-This site is built with a Bootstrap theme provided by [Start Bootstrap](https://startbootstrap.com).
+This site uses a Bootstrap theme provided by [Start Bootstrap](https://startbootstrap.com) as the template.
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Copyright 2013-2019 Blackrock Digital LLC.
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license, which means you can use them for any purpose, even for commercial projects.
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
@@ -24,6 +26,6 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-The Content: Copyright 2019 Levi Robb Magnus. All rights reserved.
+Feel free to inspect the code structure, and reuse what is appropriate, but please respect that the content of the website pertaining to me is not to be reused without my written permission. Copyright 2019 Levi Robb Magnus. All rights reserved.
 
-The Code: Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+All of the code (where applicable) and the Start Bootstrap theme are MIT Licensed.
