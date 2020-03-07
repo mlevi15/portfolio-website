@@ -251,13 +251,11 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <i class="fab fa-4x fa-python text-primary mb-4"></i>
-              <h3 class="h4 mb-2">Python Programming Language</h3>
+              <i class="fab fa-4x fa-node text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Node.js</h3>
               <p class="text-muted mb-0">
-                I used Python extensively during my time working for the UBC
-                Centre for Teaching, Learning, and Technology to write various
-                scripts to assist with the implementation of the Canvas learning
-                management system.
+                I've worked with Node.js and I've used package managers like npm
+                and Yarn.
               </p>
             </div>
           </div>
@@ -277,11 +275,13 @@
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="mt-5">
-              <i class="fab fa-4x fa-node text-primary mb-4"></i>
-              <h3 class="h4 mb-2">Node.js</h3>
+              <i class="fab fa-4x fa-python text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Python Programming Language</h3>
               <p class="text-muted mb-0">
-                I've worked with Node.js and I've used package managers like npm
-                and Yarn.
+                I used Python extensively during my time working for the UBC
+                Centre for Teaching, Learning, and Technology to write various
+                scripts to assist with the implementation of the Canvas learning
+                management system.
               </p>
             </div>
           </div>
@@ -314,14 +314,18 @@
     </section>
 
     <!-- Portfolio Section -->
-    <section class="page-section" id="portfolio">
+    <section id="portfolio">
       <div class="container-fluid">
         <h2 class="text-center mt-0">Projects</h2>
         <hr class="divider my-4" />
         <div class="row">
           <div class="col-lg-4 col-sm-6">
             <div class="mt-5">
-              <a class="portfolio-box" href="img/portfolio/fullsize/JorVi.png">
+              <div
+                class="portfolio-box"
+                data-toggle="modal"
+                data-target="#portfolioModal1"
+              >
                 <img
                   class="img-fluid"
                   src="img/portfolio/thumbnails/JorVi.png"
@@ -335,7 +339,7 @@
                     JorVi
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
@@ -492,6 +496,28 @@
               </a>
             </div>
           </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="mt-5">
+              <a
+                class="portfolio-box"
+                href="img/portfolio/fullsize/ComingSoon.png"
+              >
+                <img
+                  class="img-fluid"
+                  src="img/portfolio/thumbnails/ComingSoon.png"
+                  alt=""
+                />
+                <div class="portfolio-box-caption p-3">
+                  <div class="project-category text-white-50">
+                    Upcoming Project
+                  </div>
+                  <div class="project-name">
+                    TBD
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -537,10 +563,77 @@
           ></a>
         </div>
         <div class="small text-center text-muted">
-          Copyright &copy; 2019 Levi Robb Magnus. All rights reserved.
+          Copyright &copy; 2020 Levi Robb Magnus. All rights reserved.
         </div>
       </div>
     </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    JorVi
+                  </h2>
+                  <!-- Icon Divider -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="img/portfolio/fullsize/JorVi.png"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text -->
+                  <p class="mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Mollitia neque assumenda ipsam nihil, molestias magnam,
+                    recusandae quos quis inventore quisquam velit asperiores,
+                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
+                    Nam.
+                  </p>
+                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
