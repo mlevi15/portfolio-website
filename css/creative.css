@@ -10076,6 +10076,10 @@ header.masthead h1 {
   }
 }
 
+.masthead-profile {
+  width: 15rem;
+}
+
 #portfolio .container-fluid {
   max-width: 1920px;
 }
@@ -10125,6 +10129,10 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.portfolio-box {
+  cursor: pointer;
 }
 
 .portfolio-modal .portfolio-modal-title {
